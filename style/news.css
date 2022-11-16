@@ -1,0 +1,20 @@
+#navbar{
+    display: flex;
+    height: 50px;
+    background-color: #ffebd5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search_input{
+    padding: 3px 850px 3px 8px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+#detailed_news{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+#detailed_news>img{
+    width: 100%;
+}

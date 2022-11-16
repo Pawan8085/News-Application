@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    height: 50px;
+    background-color: #ffebd5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search_input{
+    padding: 3px 850px 3px 8px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.news{
+    height: 150px;
+    border: 1px solid blue;
+    margin-top: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.news>img{
+    height: 100%;
+    width: 200px;
+}
+.news>img+div{
+    margin-left: 10px;
+}
+#results{
+    width: 80%;
+    margin: auto;
+}

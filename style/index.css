@@ -1,0 +1,51 @@
+#navbar{
+    display: flex;
+    height: 50px;
+    background-color: #ffebd5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search_input{
+    padding: 3px 850px 3px 8px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+#mydiv{
+    display: flex;
+
+}
+#sidebar{
+    width: 15%;
+    background-color: #ffebd5;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h4{
+    width: 115px;
+    background-color: #30777f;
+    padding: 2px 6px 2px 6px;
+    margin-top: -5px;
+    cursor: pointer;
+    
+}
+.news{
+    height: 150px;
+    border: 1px solid blue;
+    margin-top: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.news>img{
+    height: 100%;
+    width: 250px;
+}
+.news>img+div{
+    margin-left: 10px;
+}
+#results{
+    width: 80%;
+    margin: auto;
+}
